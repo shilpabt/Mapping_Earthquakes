@@ -10,7 +10,6 @@ let map = L.map('map').setView([40.7, -94.5], 4);
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     maxZoom: 18,
     accessToken: API_KEY,
-
     tileSize: 512,
     zoomOffset: -1,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
