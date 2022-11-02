@@ -30,7 +30,7 @@ cityData.forEach(function(city) {
 // We create the tile layer that will be the background of our map.
 //Leaflet doesn't provide a tile layer. Instead, it offers various tile layer APIs.
 
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18,
     accessToken: API_KEY,
