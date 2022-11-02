@@ -2,7 +2,7 @@
 //console.log("working");
 
 // Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([39.8283, -98.4795], 4);
+let map = L.map('map').setView([39.8283, -98.4795], 4);
 
 //  Add a marker to the map for Los Angeles, California.
 //let marker = L.marker([34.0522, -118.2437]).addTo(map);
